@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: block;
 }
 
 .App-logo {
@@ -21,6 +22,7 @@
   color: #09d3ac;
 }
 
+
 h1 {
   font-family: 'Bigelow Rules';
   font-size: 72px;
@@ -29,5 +31,10 @@ h1 {
 
 body {
   padding: 30px 0;
+
+   @media screen and (max-width: 800px){
+    padding: 1px 1px;
+  }
+
 }
 
