@@ -32,9 +32,20 @@ h1 {
 body {
   padding: 30px 0;
 
-   @media screen and (max-width: 800px){
-    padding: 1px 1px;
-  }
-
 }
 
+@media screen and (max-width: 800px){
+    h1{
+      padding: 1px 1px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    body {
+      padding:0px 0;
+
+    } 
+
+    
+
+}
